@@ -3,7 +3,6 @@
 import { useState } from 'react'
 import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
-import type { DepthLevel } from '@/lib/types'
 
 interface SkillWithLevel {
   key: string

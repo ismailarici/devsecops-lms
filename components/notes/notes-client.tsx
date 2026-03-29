@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useCallback } from 'react'
-import { Plus, Search, Pin, PinOff, Trash2, X } from 'lucide-react'
+import { Plus, Search, Pin, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
@@ -98,8 +98,6 @@ export function NotesClient({ initialNotes }: NotesClientProps) {
     setNotes(prev => prev.filter(n => n.id !== note.id))
     if (selectedNote?.id === note.id) setSelectedNote(null)
   }, [selectedNote])
-
-  const activeNote = isCreating ? null : selectedNote
 
   return (
     <div className="flex h-full">

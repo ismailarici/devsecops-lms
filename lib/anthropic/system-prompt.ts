@@ -1,4 +1,4 @@
-import { CURRICULUM, PHASE_NAMES, DEPTH_LABELS } from '@/lib/curriculum-data'
+import { CURRICULUM, PHASE_NAMES } from '@/lib/curriculum-data'
 import type { ChatMode, TopicProgress, Note, Project } from '@/lib/types'
 
 interface SystemPromptContext {
