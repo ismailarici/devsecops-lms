@@ -50,7 +50,7 @@ function FormattedMessage({ content }: { content: string }) {
 
     // Code block
     if (line.startsWith('```')) {
-      const lang = line.slice(3).trim()
+      line.slice(3).trim() // lang hint (unused)
       const codeLines: string[] = []
       i++
       while (i < lines.length && !lines[i].startsWith('```')) {

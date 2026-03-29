@@ -6,8 +6,6 @@ import StarterKit from '@tiptap/starter-kit'
 import Placeholder from '@tiptap/extension-placeholder'
 import { Pin, PinOff, Trash2, Save, Loader2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { Input } from '@/components/ui/input'
-import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
 import type { Note, NoteType } from '@/lib/types'
 

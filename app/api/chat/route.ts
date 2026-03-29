@@ -143,7 +143,7 @@ export async function POST(request: NextRequest) {
           encoder.encode(`data: ${JSON.stringify({ done: true, conversation_id: convId })}\n\n`)
         )
         controller.close()
-      } catch (err) {
+      } catch (_err) {
         controller.enqueue(
           encoder.encode(`data: ${JSON.stringify({ error: 'Stream error' })}\n\n`)
         )

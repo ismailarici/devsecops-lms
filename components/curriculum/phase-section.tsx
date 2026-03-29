@@ -5,7 +5,6 @@ import { ChevronDown, ChevronRight, FlaskConical } from 'lucide-react'
 import { Progress } from '@/components/ui/progress'
 import { Badge } from '@/components/ui/badge'
 import { TopicRow } from './topic-row'
-import { cn } from '@/lib/utils'
 import type { CurriculumPhase, TopicProgress } from '@/lib/types'
 
 interface PhaseSectionProps {

@@ -3,7 +3,6 @@
 import { useState, useTransition } from 'react'
 import { ChevronDown, ChevronRight, ExternalLink } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import type { TopicProgress, TopicStatus, DepthLevel, CurriculumResource } from '@/lib/types'
 import Link from 'next/link'
